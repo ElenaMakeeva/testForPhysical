@@ -1,4 +1,3 @@
-# testForPhysical
 
 # Тестовое задание
 
