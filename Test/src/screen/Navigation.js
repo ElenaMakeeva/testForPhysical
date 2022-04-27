@@ -3,12 +3,12 @@ import { Routes, Link, Route } from "react-router-dom";
 import UsersList from "../components/UsersList";
 import AddUser from "../components/AddUser";
 
-const Main = () => {
+const Navigation = () => {
   return (
     <div style={styles.header}>
       <div style={styles.blockItem}>
         <Link
-          to="/allUsers"
+          to="/"
           className="nav-link active"
           aria-current="page"
           style={styles.link}
@@ -28,7 +28,7 @@ const Main = () => {
       </div>
 
       <Routes>
-        <Route path="/allUsers" element={<UsersList />} />
+        <Route path="/" element={<UsersList />} />
         <Route path="/addUser" element={<AddUser />} />
       </Routes>
     </div>
@@ -49,4 +49,4 @@ blockItem:{
     paddingTop: "15px ",
   },
 };
-export default Main;
+export default Navigation;

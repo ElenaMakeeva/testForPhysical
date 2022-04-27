@@ -34,7 +34,7 @@ const AddUser = () => {
       setEmail("");
       setProfile_link("");
     }
-    navigate(`/allUsers`);
+    navigate(`/`);
   };
   return (
     <div style={styles.wrapper}>

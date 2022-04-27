@@ -4,14 +4,14 @@ import { Provider } from 'react-redux';
 
 import { store } from './store/index';
 
-import Main from './screen/Main';
+import Navigation from './screen/Navigation';
 import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
     <BrowserRouter>
     <Provider store={store}>
-      <Main />
+      <Navigation />
     </Provider>
     </BrowserRouter>
   );
