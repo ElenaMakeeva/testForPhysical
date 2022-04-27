@@ -41,9 +41,9 @@ const styles = {
     width: "100%",
     backgroundColor: "#740074",
   },
-blockItem:{
-  display: "inline-block"
-},
+  blockItem: {
+    display: "inline-block",
+  },
   link: {
     color: "rgb(255, 255, 255)",
     paddingTop: "15px ",
